@@ -1,0 +1,10 @@
+﻿UrlId;longUrl;Domain
+TEST001;https://www.google.com/search?q=dog;bit.ly
+TEST002;https://www.google.com/search?q=cat;bit.ly
+TEST003;https://www.google.com/search?q=cow;bit.ly
+TEST004;https://www.google.com/search?q=buffalo;bit.ly
+TEST005;https://www.google.com/search?q=pet;bit.ly
+TEST006;https://www.google.com/search?q=chicken;bit.ly
+TEST007;https://www.google.com/search?q=duck;bit.ly
+TEST008;https://www.google.com/search?q=fish;bit.ly
+TEST009;https://www.google.com/search?q=horse;bit.ly

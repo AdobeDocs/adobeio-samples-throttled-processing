@@ -4,13 +4,14 @@ This headless application manages the processing of a queue of tasks which requi
 
 ## Setup
 
-Populate the `.env` file in the project root with the values as shown in the [sample dot-env file](./dot-env)
+- Populate the `.env` file in the project root with the values as shown in the [sample dot-env file](./dot-env)
 
 ## Local Dev
 
 - `aio app run` to start your local Dev server
 - Actions are automatically deployed after a code file is saved
 - There is no UI in this headless app
+- You can use the [test-urls.csv](./test-urls.csv) to test the app
 
 ## Test & Coverage
 
