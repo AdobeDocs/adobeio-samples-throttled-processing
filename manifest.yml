@@ -1,0 +1,41 @@
+packages:
+  __APP_PACKAGE__:
+    license: Apache-2.0
+    actions:
+      url-shortener:
+        function: actions/url-shortener/index.js
+        web: 'yes'
+        runtime: 'nodejs:12'
+        inputs:
+          LOG_LEVEL: debug
+          bitlyToken: $BITLY_TOKEN
+        annotations:
+          require-adobe-auth: false
+          final: true
+      process-list:
+        function: actions/process-list/index.js
+        web: 'yes'
+        runtime: 'nodejs:12'
+        inputs:
+          LOG_LEVEL: debug
+        annotations:
+          require-adobe-auth: false
+          final: true
+      merge-results:
+        function: actions/merge-results/index.js
+        web: 'yes'
+        runtime: 'nodejs:12'
+        inputs:
+          LOG_LEVEL: debug
+        annotations:
+          require-adobe-auth: false
+          final: true
+      schedule-queue:
+        function: actions/schedule-queue/index.js
+        web: 'yes'
+        runtime: 'nodejs:12'
+        inputs:
+          LOG_LEVEL: debug
+        annotations:
+          require-adobe-auth: false
+          final: true
