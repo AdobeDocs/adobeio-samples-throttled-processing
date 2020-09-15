@@ -34,7 +34,7 @@ async function main (params) {
     logger.debug(stringParameters(params))
 
     // check for missing request input parameters and headers
-    const requiredParams = ['jobId', 'campaignNotificationEndpoint']
+    const requiredParams = ['jobId']
     const requiredHeaders = []
     const errorMessage = checkMissingRequestInputs(params, requiredParams, requiredHeaders)
     if (errorMessage) {
