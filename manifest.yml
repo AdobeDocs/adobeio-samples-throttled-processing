@@ -5,7 +5,7 @@ packages:
       url-shortener:
         function: actions/url-shortener/index.js
         web: 'yes'
-        runtime: 'nodejs:12'
+        runtime: 'nodejs:14'
         inputs:
           LOG_LEVEL: debug
           bitlyToken: $BITLY_TOKEN
@@ -15,7 +15,7 @@ packages:
       process-list:
         function: actions/process-list/index.js
         web: 'yes'
-        runtime: 'nodejs:12'
+        runtime: 'nodejs:14'
         inputs:
           LOG_LEVEL: debug
         annotations:
@@ -24,7 +24,7 @@ packages:
       merge-results:
         function: actions/merge-results/index.js
         web: 'yes'
-        runtime: 'nodejs:12'
+        runtime: 'nodejs:14'
         inputs:
           LOG_LEVEL: debug
         annotations:
@@ -33,7 +33,7 @@ packages:
       schedule-queue:
         function: actions/schedule-queue/index.js
         web: 'yes'
-        runtime: 'nodejs:12'
+        runtime: 'nodejs:14'
         inputs:
           LOG_LEVEL: debug
         annotations:
